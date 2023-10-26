@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #75bfe6;
+    background-image: linear-gradient(160deg, #75bfe6 0%, #b3d8d1 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    margin: auto;
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 30px black;
+}
+.box1{
+    width: 100%;
+    height: 130px;
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 75%;
+    padding-top: 20px;
+}
+#annualplan {
+    font-size: 1rem;
+    text-align: center;
+}
+.box2 h2{
+    font-weight:bold ;
+    font-size:1.5rem;
+}
+#amountBox{
+    width:75% ;
+    height: 10%;
+    background-color: rgb(215, 210, 206);
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 5px;
+    padding-top: 3px;
+    
+}
+.rightBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.rightBox1 img{
+    width: 40px;
+}
+.rightBox2 p{
+   font-size: 0.8rem;
+}
+#payButton{
+    background-color: rgb(7, 7, 83);
+    width: 75%;
+    height: 8%;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    font-size: 1.1rem;
+}
+.cancelBox{
+    margin: 20px;
+}
+.cancelBox a{
+    color: rgb(93, 84, 84);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
